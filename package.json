@@ -3,6 +3,9 @@
   "version": "0.0.1",
   "description": "Istanbuljs custom reporter to generate AWS Cloudwatch Metrics",
   "main": "index.js",
+  "dependencies": {
+    "istanbul-lib-report": "^3.0.0"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
